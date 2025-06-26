@@ -44,27 +44,20 @@ This guide shows you how to get osTicket up and running on an Azure virtual mach
 <img src="https://i.imgur.com/TaeIVwZ.png" height="80%" width="80%" alt="Azure Virtual Machine Steps"/>
 
 
-<b> **PRE-STEP** -- After signing in to Azure, click on "Resource Groups" in the dashboard. You will be redirected to the "Create Resource Group" page.</b>
+<b> **PRE-STEP** -- After signing in to Azure, click on "Resource Groups" in the dashboard. You will be redirected to the "Create Resource Group" page.</b> <p>Make sure that the resource group is created under the correct <b>Subscription.</b>
 </p>
 <br />
 <br />
 <br />
 
-
-
-<p>
-<img src= "https://i.imgur.com/qB68NYR.png" height="80%" width="80%" alt="Azure Virtual Machine Steps"/>
-</p>
 
 <h3><b> Step 1 - Create Virtual Machine </b></h3>
   
-<p>Make sure that the resource group is created under the correct <b>Subscription.</b>
+<p> Installing <b>osTicket</b> on a virtual machine gives you full control to set it up the way you want, plus you can access it from anywhere since it’s in the cloud. It’s a great way to keep things organized, separate from other apps, and super useful if you're learning or testing things out. <br/ r>
 
-Next, enter a <b>Resource Group Name</b> that is easy to recognize and will be used to contain your Virtual Machine.
+I created a step-by-step tutorial for creating an Azure virtual machine, click <a href="https://github.com/micaelahwalkerit/azure_virtualmachine">HERE</a>
 
-Next, select a <b>Region</b> that is geographically close to your location for optimal performance.
 
-Finally, click <b>Review + Create</b> to create the Resource Group
 </p>
 <br />
 <br />
@@ -75,7 +68,7 @@ Finally, click <b>Review + Create</b> to create the Resource Group
 <img src="https://i.imgur.com/DVnMCCU.png" height="80%" width="80%" alt="Azure Virtual Machine Steps"/>
 </p>
 <p>
-<h3><b> Step 2 - Create a Virtual Machine</b></h3>
+<h3><b> Step 2 - Connect to Virtual Machine using Remote Desktop</b></h3>
   <br />
 
 After creating your resource group, return to the Azure Dashboard.
@@ -83,7 +76,7 @@ After creating your resource group, return to the Azure Dashboard.
 Next, click on <b>"Virtual Machines" </b>— you can find this either on the dashboard or in the left-hand navigation menu.
 
 Then, click the <b>"+ Create"</b> button and select <b>"Azure virtual machine"</b> from the dropdown.
-** For complete tutorial on Azure virtual machine set-up , click here a ref<"https://github.com/micaelahwalkerit/azure_virtualmachine">
+** For complete tutorial on Azure virtual machine set-up , click here <a href"https://github.com/micaelahwalkerit/azure_virtualmachine"><HERE></a>
 </p>
 <br />
 <br />
@@ -94,38 +87,10 @@ Then, click the <b>"+ Create"</b> button and select <b>"Azure virtual machine"</
 <img src="https://i.imgur.com/aST7Tc3.png" height="80%" width="80%" alt="Azure Virtual Machine Steps"/>
 </p>
 <p>
-<h3><b>Step 3 - Fill in Basic Tab for your Virtual Machine </b></h3>
+<h3><b>Step 3 - Within VM, download the installation file </b></h3>
 <br />
   
-After clicking <b>"Azure virtual machine"</b> from the dropdown menu, you'll be taken to the <b>Basics</b> tab. This is where you'll enter the essential information needed to set up your virtual machine.
-
-<b>Fill in the following fields:</b>
-
-<b>Subscription:</b> Select the appropriate subscription from the list.
-
-<b>Resource Group:</b> Choose the resource group you created earlier.
-
-<b>Virtual Machine Name:</b> Enter a name for your VM (e.g., MyFirstVM).
-
-<b>Region:</b> Select the same region you used for your resource group.
-
-<b>Image:</b> Choose the operating system you'd like to install (e.g., Windows 11, Ubuntu).
-
-<b>Size:</b> Click "See all sizes" and select a VM size that fits your performance needs and budget. (However, it's best to choose at least 2 vcpus for speed)
-
-<b>Administrator Account Setup:</b>
-
-<b>Username:</b> Create a secure username for logging into your VM.
-
-<b>Authentication Type:</b>
-
-<ul>For <i>Windows</i>, set a strong password.
-
-For <i>Linux</i>, upload an SSH public key or choose password authentication if preferred. ( Azure now automatically generates an SSH key pair for you but you can also just use a Username & Password like you would for Windows).</ul>
-
-<b>Licensing:</b> (Usually for a Windows VM) If you see a Licensing checkbox, check it or else your VM will fail to deploy.
-
-Click <b>"Next: Disk"</b>
+aisniusdnnfjsdnfkjsdnfkjsdnfnsdkjfnskjdfnskdjnksdnfkjsdfn
 </p>
 <br />
 <br />
@@ -136,12 +101,10 @@ Click <b>"Next: Disk"</b>
 <img src="https://i.imgur.com/c9ucNHD.png" height="80%" width="80%" alt="Azure Virtual Machine Steps"/>
 </p>
 <p>
-<h3><b>Step 4 - Disks Tab </b></h3>
+<h3><b>Step 4 - Install the Required Software </b></h3>
 <br />
 
-Leave defaults (or choose SSD for better performance).
-
-Click <b>"Next: Networking"</b>.
+sdlfnsdklfnsdklfnlskdnfklsdnflksd
 </p>
 <br />
 <br />
@@ -152,17 +115,11 @@ Click <b>"Next: Networking"</b>.
 <img src="https://i.imgur.com/IWOHYJU.png" height="80%" width="80%" alt="Azure Virtual Machine Steps"/>
 </p>
 <p>
-<h3><b>Step 5 - Networking Tab</b></h3> 
+<h3><b>Step 5 - Move Files to the Web Directory</b></h3> 
   <br />
-
-Azure will automatically create a <b>Virtual Network (VNet) and Subnet</b>. However, you can change the VNet name.
-<br />
-<ul><i>This is one of Azure's helpful features for a virtual machine. These are essential because they allow your VM to communicate with other resources, just like a physical computer on a network</i></ul>
-
-Ensure <b>"Public IP"</b> is set to create a new one (if you want internet access).
-
-<b>Leave defaults unless you have specific networking needs.</b>
+asjfndljnflsdnflksndlfndsljfnsdjlfnsldfnl
 </p>
+
 <br />
 <br />
 <br />
