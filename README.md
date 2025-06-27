@@ -55,7 +55,7 @@ This guide shows you how to get osTicket up and running on an Azure virtual mach
   
 <p> Installing <b>osTicket</b> on a virtual machine gives you full control to set it up the way you want, plus you can access it from anywhere since it’s in the cloud. It’s a great way to keep things organized, separate from other apps, and super useful if you're learning or testing things out. <br/ r>
 
-I created a step-by-step tutorial for creating an Azure virtual machine, click <a href="https://github.com/micaelahwalkerit/azure_virtualmachine">HERE</a>
+<b>I created a STEP-BY-STEP TUTORIAL</b> for creating an Azure virtual machine.</b> Click <a href="https://github.com/micaelahwalkerit/azure_virtualmachine">HERE</a> to see how to set one up.
 
 
 </p>
